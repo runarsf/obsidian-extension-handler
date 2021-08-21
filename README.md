@@ -1,23 +1,26 @@
-## Obsidian Extension as Markdown
+## Obsidian Extension Handler
 
-An Obsidian plugin to allow editing (and creation) of custom extensions.
+An Obsidian plugin to allow editing (and creation) of files with custom extensions.
 
+> :warning: **Adding ext/ft pairs**: For setting-changes to take effect you have to restart Obsidian, this will be changed in the future.
 
 ### Manual installation
 
-- Copy `main.js`, `styles.css`, and `manifest.json` from this repo to your vault `<VaultRoot>/.obsidian/plugins/obsidian-ext-as-md/`.
-- or just clone this repository into the vault plugins directory `git clone https://github.com/runarsf/obsidian-ext-as-md <VaultRoot>/.obsidian/plugins/obsidian-ext-as-md`
+> :information_source: **Note**: Plugin has not yet been added to the Obsidian community plugin list, and will have to be installed manually.
+
+- Copy `main.js` and `manifest.json` from this repo to your vault `<VaultRoot>/.obsidian/plugins/obsidian-extension-handler/`.
+- ***or*** clone this repository into the vault *plugins* directory `git clone https://github.com/runarsf/obsidian-extension-handler <VaultRoot>/.obsidian/plugins/obsidian-extension-handler`
 
 
 ### Development
 
-- Clone this repo ([Manual installation](https://github.com/runarsf/obsidian-publ-ish/#manual-installation)).
+- Clone this repo `git clone git@github.com/runarsf/obsidian-extension-handler <VaultRoot>/.obsidian/plugins/obsidian-extension-handler`.
 - `npm i` or `yarn` to install dependencies
 - `npm run dev` to start TypeScript compilation in watch mode (don't modify `.js` files).
 - Reload Obsidian to load the new version of your plugin.
 
 
-#### API "Documentation"
+#### API Documentation
 
 See https://github.com/obsidianmd/obsidian-api
 
