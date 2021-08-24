@@ -1,7 +1,7 @@
 {
   "name": "obsidian-extension-handler",
   "version": "0.0.1",
-  "description": "An Obsidian plugin to allow editing (and creation) of custom extensions.",
+  "description": "An Obsidian plugin to allow editing (and creation) of custom file extensions.",
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",

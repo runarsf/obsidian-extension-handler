@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-extension-handler",
-	"name": "Extension Handler",
-	"version": "1.0.1",
-	"minAppVersion": "0.9.12",
-	"description": "An Obsidian plugin to allow editing (and creation) of custom extensions.",
-	"author": "Runar Fredagsvik",
-	"authorUrl": "https://github.com/runarsf",
-	"isDesktopOnly": false
+  "id": "obsidian-extension-handler",
+  "name": "Extension Handler",
+  "version": "1.0.1",
+  "minAppVersion": "0.9.12",
+  "description": "An Obsidian plugin to allow editing (and creation) of custom file extensions.",
+  "author": "Runar Fredagsvik",
+  "authorUrl": "https://github.com/runarsf",
+  "isDesktopOnly": false
 }
